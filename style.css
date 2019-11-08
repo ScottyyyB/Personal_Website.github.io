@@ -1,0 +1,240 @@
+/* Custom Fonts */
+
+@font-face {
+    font-family: "American Captain"; src: url("fonts/American Captain.otf");
+    font-family: "Venus-Rising"; src: url("fonts/venus-rising.ttf");
+}
+
+@font-face {
+    font-family: "Shocking-Headline"; src: url("fonts/Shocking\ Headline\ DF.otf");
+}
+
+@font-face {
+    font-family: "Conthrax"; src: url("fonts/conthrax-sb.ttf");
+}
+
+/* High Hierachy Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+    background-color: #00013C;
+}
+
+main {
+    padding: 20px 0;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 3, 0.3);
+    border-color: #FFE284;
+}
+
+p {
+    font-family: "Shocking-Headline", sans-serif;
+    font-size: 17.5px;
+    margin-top: 30px;
+    line-height: 1.2em;
+    letter-spacing: 1.2px;
+  }
+
+/* Navbar */
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto Mono;
+}
+
+nav {
+    margin-top: 0;
+    margin-bottom: 55px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+li {
+    display: inline;
+}
+
+nav li {
+    padding: 30px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+}
+
+nav li a:hover {
+    color: #FFD756;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+/* Header */
+
+h1 {
+    color: #FCCE35;
+    font-size: 112px;
+    font-family: "American Captain", sans-serif;
+    letter-spacing: 6px;
+}
+
+header img {
+    margin-top: 80px;
+    margin-bottom: 65px;
+    border-radius: 100%;
+    width: 310px;
+}
+
+/* Main section */
+
+/* Main headers */
+
+h2 {
+    font-family: "Venus-Rising", sans-serif;
+    font-size: 65px;
+    letter-spacing: 3.5px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+h3 {
+    font-family: "Conthrax", sans-serif;
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    text-shadow: 0 0 2.2px #D6D6D6;
+    color: #FFC50A;
+}
+
+h4 {
+    margin: 22px;
+    font-family: "Conthrax";
+}
+
+header p {
+    width: 550px;
+    margin: auto;
+    padding: 0 70px;
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 1.2em;
+    letter-spacing: 1.6px;
+    font-size: 21.2px;
+}
+
+/* Main borders */
+
+hr {
+    color: #F3C624;
+    background-color: #F3C624;
+    height: 17px;
+    border: none;
+    border-radius: 3px;
+    margin: 105px 0;
+}
+
+.border-space-right {
+    width: 65%;
+    margin-right: 90px;
+    float: right;
+}
+
+.border-space-left {
+    width: 65%;
+    margin-left: 90px;
+    float: left;
+}
+
+/* Main interest */
+
+.interest {
+    background-color: rgba(80, 80, 80, 0.2);   
+    padding: 60px 0;
+    clear: both;
+    margin: auto;
+    width: 960px;
+    height: 485px;
+}
+
+.interest img {
+    width: 140px;
+    border-color: #9ecaed;
+    box-shadow: 0 0 8.5px #9ecaed;
+}
+
+.interest-section {
+    display: inline-block;
+    width: 200px;
+    margin: 40px;
+    vertical-align: top;
+}
+
+.interest:first-of-type img {
+    width: 85px;
+}
+
+.interest:last-child {
+    margin-bottom: 130px;
+}
+
+/* Main gaming */
+
+#gaming .interest-section:last-of-type img {
+    height: 220px;
+}
+
+/* Main animals */
+
+#animals img { 
+    width: 205px;
+    height: 170px;
+}
+
+/* Back to top link */
+
+#back_to_top {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#back_to_top a {
+    color: #285AFF;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    padding-top: 45px;
+}
+
+footer img {
+    width: 31px;
+    margin: 0 40px;
+    vertical-align: middle;
+}
+
+footer li:nth-child(2) img {
+    width: 27px;
+}
+
+footer li:nth-child(4) img {
+    width: 39px;
+    margin-left: 33.5px;
+}
+
+footer h5 {
+    font-family: "Roboto Mono", sans-serif;
+    display: inline;
+    margin-right: 20px; 
+}
